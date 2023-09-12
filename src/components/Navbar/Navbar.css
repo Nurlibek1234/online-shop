@@ -1,0 +1,30 @@
+nav { 
+    width: 100%;
+    padding: 30px 150px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    font-weight: 16px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
